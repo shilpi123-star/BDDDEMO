@@ -39,57 +39,58 @@ public class PostSteps {
     @Given("User should be logged in and should be present on his wall")
    public void user_should_be_logged_in_and_should_be_present_on_his_wall() {
        System.out.println("user_should_be_logged_in_and_should_be_present_on_his_wall");
-//     throw new io.cucumber.java.PendingException();
+
    }
   @When("I type the message in the box")
   public void i_type_the_message_in_the_box() {
        System.out.println("i_type_the_message_in_the_box");
-//    throw new io.cucumber.java.PendingException();
+      System.out.println("I type the message in the box");
+
    }
    @When("Click on Post button")
    public void click_on_post_button() {
        System.out.println("click_on_post_button");
-//        throw new io.cucumber.java.PendingException();
+
    }
    @Then("The message should get posted.")
   public void the_message_should_get_posted() {
       System.out.println("the_message_should_get_posted");
-//       throw new io.cucumber.java.PendingException();
+
    }
    @Given("User should be logged in and should be present at its own wall")
     public void user_should_be_logged_in_and_should_be_present_at_its_own_wall() {
        System.out.println("user_should_be_logged_in_and_should_be_present_at_its_own_wall");
-//        throw new io.cucumber.java.PendingException();
+
   }
    @When("User supply the youtube link in the text box")
    public void user_supply_the_youtube_link_in_the_text_box() {
         System.out.println("user_supply_the_youtube_link_in_the_text_box");
-//       throw new io.cucumber.java.PendingException();
+
   }
    @Then("Video should get posted on the user wall")
     public void video_should_get_posted_on_the_user_wall() {
        System.out.println("video_should_get_posted_on_the_user_wall");
-//        throw new io.cucumber.java.PendingException();
+
    }
    @Then("The video should have proper thumbnail.")
     public void the_video_should_have_proper_thumbnail() {
        System.out.println("the_video_should_have_proper_thumbnail");
-//        throw new io.cucumber.java.PendingException();
+
     }
     @When("I type the message as {string} in the text box")
    public void i_type_the_message_as_in_the_text_box(String string) {
        System.out.println(string);
-//       throw new io.cucumber.java.PendingException();
+
     }
     @When("User supply the youtube link as {string} in the text box")
     public void user_supply_the_youtube_link_as_in_the_text_box(String string) {
         System.out.println(string);
-//       throw new io.cucumber.java.PendingException();
+
    }
     @Then("Then video should get posted on the user wall")
    public void then_video_should_get_posted_on_the_user_wall() {
         System.out.println("then_video_should_get_posted_on_the_user_wall");
-//       throw new io.cucumber.java.PendingException();
+
    }
 
    @Then("the message should get posted.")
