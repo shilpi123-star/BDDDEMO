@@ -1,2 +1,2 @@
 # BDDDEMO
-This is my demo automation project
+This is for demo for integration with jenkins
