@@ -1,2 +1,2 @@
 # BDDDEMO
-This is my demo automation projecttttt
+This is my demo automation project
